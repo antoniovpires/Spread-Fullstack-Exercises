@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estacionamento</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    
+    <div class="flex-container">
+        <div class="form-total">
+            <h1>MAJOR TOM'S PARKING LOT</h1>
+            <div class="form">
+                <input
+                type="text"
+                id="nome" placeholder="Nome da Nave"
+                class="form-input"/>
+                <input
+                type="text"
+                id="placa" placeholder="ID da Nave"
+                class="form-input" />
+                <br>
+                <button id="cadastrar" class="form-button">INSERT</button>
+            </div>
+        <table class="flex-container tableClass">
+            <thead>
+                <tr class="table-row">
+                    <th class="table-header">Nome</th>
+                    <th class="table-header">Placa</th>
+                    <th class="table-header">Entrada</th>
+                    <th class="table-header">Ações</th>
+                </tr>
+            </thead>
+            <tbody id="patio" class= "tabela">
+            </tbody>
+    </div>
+    </table>
+    </div>  
+    <script src="./script.js"></script>
+</body>
+</html>
